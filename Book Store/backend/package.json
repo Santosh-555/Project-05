@@ -1,0 +1,19 @@
+{
+  "name": "bookstore-backend-service",
+  "version": "1.0.0",
+  "description": "A robust backend service for managing an online bookstore, providing RESTful APIs for handling inventory, user management, and order processing with a focus on efficiency and scalability.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "R Santosh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}
